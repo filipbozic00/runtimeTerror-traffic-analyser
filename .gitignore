@@ -1,0 +1,8 @@
+# Client dependent config files
+.vscode
+
+# Document files
+Projektna naloga.odp
+MobileApp/MyApplication/local.properties
+MobileApp/Camera/local.properties
+Porocilo.pdf

@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "6098ec3984854198b0352d39"
+  },
+  "src": "slike/projektnaNaloga/slika1024.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6098ec5084854198b0352d3a"
+  },
+  "src": "slike/projektnaNaloga/slika1025.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6098ec5784854198b0352d3b"
+  },
+  "src": "slike/projektnaNaloga/slika1026.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6098ec5c84854198b0352d3c"
+  },
+  "src": "slike/projektnaNaloga/slika1027.jpg",
+  "__v": 0
+}]

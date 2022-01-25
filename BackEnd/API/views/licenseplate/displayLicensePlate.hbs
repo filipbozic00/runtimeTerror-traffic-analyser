@@ -1,0 +1,16 @@
+<div class="row content mt-2">
+    <div class="text-left mx-auto col-sm-8 mb-3">
+        <a class="d-inline" href="/licenseplates/add"><button class="btn btn-primary mb-2">Dodaj</button></a>
+    </div>
+    <div class="mx-auto col-sm-8 mb-3">
+        <h2>Prometni znaki:</h2>
+        <hr>
+    </div>
+    {{#each licenseplates}}
+    <div class="mx-auto col-sm-8 border border-light rounded mb-3 bg-dark text-light">
+        <p>Simbol: {{symbols}} <br>
+        Vir slike: {{imageSource.src}}
+        </p>
+    </div>
+    {{/each}}
+</div>

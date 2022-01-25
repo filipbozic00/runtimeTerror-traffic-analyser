@@ -1,0 +1,19 @@
+<div class="row content mt-2">
+    <div class="text-left mx-auto col-sm-8 mb-3">
+        <a class="d-inline" href="/gps/add"><button class="btn btn-primary mb-2">Dodaj</button></a>
+    </div>
+    <div class="mx-auto col-sm-8 mb-3">
+        <h2>GPS Lokacije:</h2>
+        <hr>
+    </div>
+    {{#each GPS}}
+    <div class="mx-auto col-sm-8 border border-light rounded mb-3 bg-dark text-light">
+        <p>Latitude: {{latitude}} <br>
+        Longitude: {{longditude}} <br>
+        Altitude: {{altitude}} <br>
+        Hitrost: {{speed}} <br>
+        Točnost: {{accuracy}}
+        </p>
+    </div>
+    {{/each}}
+</div>

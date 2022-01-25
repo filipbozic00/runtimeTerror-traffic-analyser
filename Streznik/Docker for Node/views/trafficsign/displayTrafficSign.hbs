@@ -1,0 +1,16 @@
+<div class="row content mt-2">
+    <div class="text-left mx-auto col-sm-8 mb-3">
+        <a class="d-inline" href="/trafficsign/add"><button class="btn btn-primary mb-2">Dodaj</button></a>
+    </div>
+    <div class="mx-auto col-sm-8 mb-3">
+        <h2>GPS Lokacije:</h2>
+        <hr>
+    </div>
+    {{#each trafficsigns}}
+    <div class="mx-auto col-sm-8 border border-light rounded mb-3 bg-dark text-light">
+        <p>Simbol: {{symbol}} <br>
+        Lokacija: {{location.latitude}}, {{location.longditude}}
+        </p>
+    </div>
+    {{/each}}
+</div>

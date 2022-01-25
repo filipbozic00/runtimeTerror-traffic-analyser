@@ -1,0 +1,18 @@
+<div class="row content mt-2">
+    <div class="text-left mx-auto col-sm-8 mb-3">
+        <a class="d-inline" href="/cars/add"><button class="btn btn-primary mb-2">Dodaj</button></a>
+    </div>
+    <div class="mx-auto col-sm-8 mb-3">
+        <h2>Avti:</h2>
+        <hr>
+    </div>
+    {{#each cars}}
+    <div class="mx-auto col-sm-8 border border-light rounded mb-3 bg-dark text-light">
+        <h3>Stevilo avtomobilov: {{numberOfCars}}</h3>
+        <p>Povprecna hitrost: {{averageSpeed}} <br>
+        Lokacija: {{location.latitude}}, {{location.longditude}} <br>
+        Vir slike: {{imageSource.src}}
+        </p>
+    </div>
+    {{/each}}
+</div>
